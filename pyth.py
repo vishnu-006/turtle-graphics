@@ -25,6 +25,26 @@ def Rectangle():
         ob.forward(y) 
         ob.left(90) 
     turtle.done()
+def Triangle():
+	turtle.title(dic.get(option))
+    	ob = turtle.Turtle()
+    	tk = turtle.Screen()
+    	ob.hideturtle()
+    	tk.bgcolor("light green")
+	length = int(input("Enter the Length of the Triangle: "))
+	for _ in range(length):
+		ob.forward(length)
+		ob.left(120)
+	turtle.done()
+def RightTriangle():
+	turtle.title(dic.get(option))
+    	ob = turtle.Turtle()
+    	tk = turtle.Screen()
+    	ob.hideturtle()
+    	tk.bgcolor("light green")
+	
+	
+	
     
    
 print("**WELCOME TO GEOMETRIC SHAPES**")
@@ -35,7 +55,7 @@ print("SELECT THE OPTION YOU WANT :-\n")
 def Options():
 	print("[1] SQUARE\t [2] RECTANGLE\n")
 	
-	print("[3] TRIANGLE\t [4] RI;GHT TRIANGLE\n")
+	print("[3] TRIANGLE\t [4] RIGHT TRIANGLE\n")
 	
 	print("[5] ELLIPSE\t [6] PARALLELOGRAM\n")
 Options()
