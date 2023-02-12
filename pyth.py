@@ -42,6 +42,8 @@ def RightTriangle():
     	tk = turtle.Screen()
     	ob.hideturtle()
     	tk.bgcolor("light green")
+def Parallelogram():
+	
 	
 	
 	
